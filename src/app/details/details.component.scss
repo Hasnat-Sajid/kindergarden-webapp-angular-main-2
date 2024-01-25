@@ -1,0 +1,25 @@
+.kindergarten-details {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+.kindergarten-details h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.kindergarten-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.kindergarten-details p, .kindergarten-details ul {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}

@@ -1,0 +1,4 @@
+<div class="data-container">
+    <app-button (toggleButtonClickEvent)="openPopupClicked($event)"></app-button>
+    <app-data [currentPage]="currentPage" (selectPageEvent)="receiveMessage($event)"></app-data>
+</div>

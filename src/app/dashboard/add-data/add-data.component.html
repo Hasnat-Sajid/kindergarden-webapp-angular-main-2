@@ -1,0 +1,34 @@
+<div>
+  <form class="wrapper" [formGroup]="addChildForm" (ngSubmit)="onSubmit()">
+    <h2>Ihr Kind anmelden!</h2>
+    <mat-form-field class="item">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="Name" type="input" formControlName="name"><br />
+      <mat-error>Name is <strong>required</strong></mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="item">
+      <mat-label>Birthday</mat-label>
+      <input matInput placeholder="Geburtsdatum" type="date" formControlName="birthDate"><br />
+      <mat-error>Birthday is <strong>required</strong></mat-error>
+    </mat-form-field>
+    
+    <mat-form-field class="item">
+      <mat-label>KindergartenID</mat-label>
+      <mat-select formControlName="kindergardenId">
+        <!--<mat-option value="" disabled>Bitte auswählen</mat-option>-->
+        <mat-option *ngFor="let kindergarden of storeService.kindergardens()" [value]="kindergarden.id">
+          {{kindergarden.name}}, {{kindergarden.address}}</mat-option>
+          <!-- <mat-option>test</mat-option> -->
+      </mat-select>
+      <mat-error>Kindergarten <strong>required</strong></mat-error>
+    </mat-form-field>
+
+    <div class="button-container">
+      <button mat-raised-button color="primary" type="submit">Submit</button>
+      <button mat-raised-button color="primary" (click)="closeDialog()">Close</button>
+    </div>
+  </form>
+</div>
+
+

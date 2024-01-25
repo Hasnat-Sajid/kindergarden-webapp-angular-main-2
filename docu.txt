@@ -1,0 +1,30 @@
+Ich habe mir die UX der Kindergarten-Anwendung genau angesehen und einige wichtige Punkte
+identifiziert, die ich bereits teilweise umgesetzt habe:
+
+Benutzerfeedback und Fehlerbehandlung: Für mich war es wichtig, dass die Nutzer ein direktes Feedback auf
+ihre Aktionen erhalten. Ich habe also Fehlermeldungen integriert, um für eine klare Kommunikation zu sorgen.
+Wenn kein Ergebniss mittels des Filters gefunden werden kann habe ich das den User wissen lassen. Bevor man ein Kind
+entgültig löschen kann kommt eine Warnmeldung. Ein neues Kind anzulegen wird jetzt in einen Pop-up angezeigt.
+
+Konsistenz in UI-Elementen: Ein einheitliches Design war mir besonders wichtig. Daher habe ich
+darauf geachtet, dass Schaltflächen, Schriftarten und Farbschemata im gesamten Anwendungsbereich konsistent sind.
+Dies trägt zu einem harmonischen Gesamtbild bei.
+
+Leistungsoptimierung: Ich habe die Anwendung auf mögliche Leistungsprobleme wie langsame Ladezeiten überprüft und
+entsprechende Optimierungen vorgenommen, um eine flüssige Bedienung zu gewährleisten. Über die Dev-tools habe ich
+die Zeiten gemäßen und die Seite funktioniert ohne starke Zeiteinbrüchen.
+
+Responsive Design: Es war mir ein Anliegen, dass unsere Anwendung auf allen Geräten gut funktioniert.
+Daher habe ich sichergestellt, dass sie auf Tablets und auch auf Handys funktioniert.
+
+Intuitive Navigation: Ich habe die Navigationsstruktur genau angeschaut, um sicherzustellen, dass die Nutzer
+schnell und einfach auf die verschiedenen Funktionen zugreifen können.
+
+Folgende Punkte habe ich ebenfalls in Betracht gezogen, aber nicht umgesetzt:
+
+Zugänglichkeit und Lesbarkeit: Die Zugänglichkeit der Anwendung für Menschen mit Behinderungen und die
+Lesbarkeit der Texte (Schriftgröße, Kontrast etc.) stehen noch auf meiner To-do-Liste.
+
+Benutzer-Onboarding und Hilfe: Auch die Implementierung eines verständlichen Einführungsprozesses für
+neue Nutzer sowie eine Hilfedokumentation oder Tooltips für komplexere Funktionen plane ich in naher Zukunft anzugehen.
+Manche der Felder sind nun mandatory hinterlegt um den User zu guiden.
